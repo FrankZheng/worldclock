@@ -1,0 +1,17 @@
+{
+  "name": "com.frank.zheng.worldclock",
+  "version": "0.0.1",
+  "description": "A backend for worldclock WeChat mini-programs",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.35.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank Zheng",
+  "license": "ISC"
+}
