@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 const Op = Sequelize.Op;
 
 const db = new Sequelize({
-	database: 'worldtime',
+	database: 'worldclock',
 	username: 'frank',
 	password: 'frank78524',
 	dialect: 'mysql'
@@ -124,7 +124,7 @@ const searchByFuzzyName = (name, success, error, pageNum, pageSize) => {
 	CityDao.findAll({
 		where: {
 			ascii_name : {
-				[Op.like] : name + '%'
+				[Op.like] : '%' + name + '%'
 			}
 		},
 		limit : pageSize,
