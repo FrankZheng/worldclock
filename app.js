@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const db = require('./db.js')
 
 
-
+const port = process.argv[2] || 3000;
 
 //connect db
 db.connect();
@@ -42,4 +42,4 @@ app.post ('/api/searchCityByFuzzyName', (req, res) => {
 
 
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(port, () => console.log('Example app listening on port ' + port) )
