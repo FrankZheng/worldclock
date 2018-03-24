@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser');
 const db = require('./db.js')
+const morgan = require('morgan')
 
 
 const port = process.argv[2] || 3000;
@@ -11,6 +12,7 @@ db.connect();
 
 const app = express()
 app.use(bodyParser.json());
+app.use(morgan('short'));
 
 app.post('/api/defaultCities', (req, res) => {
 	res.json(db.CityDao.getDefaultCities);
