@@ -4,7 +4,7 @@ const db = require('./db.js')
 const morgan = require('morgan')
 
 
-const port = process.argv[2] || 3000;
+const port = process.argv[2] || 5000;
 
 //connect db
 db.connect();
