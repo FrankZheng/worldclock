@@ -1,0 +1,16 @@
+{
+    "apps" : [{
+      "name"        : "worldclock-api",
+      "script"      : "./app.js",
+      "watch"       : false,
+      "args"        : "5000",
+      "instances"   : 0,
+      "exec_mode"   : "cluster",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production" : {
+         "NODE_ENV": "production"
+      }
+    }]
+}
