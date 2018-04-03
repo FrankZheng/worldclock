@@ -44,6 +44,7 @@ class City {
 		this.stateName = cityDao.getDataValue('state_name');
 		this.timeZoneDesc = cityDao.getDataValue('time_zone_desc');
 		this.timezone = cityDao.getDataValue('time_zone_offset');
+		this.countryCode = cityDao.getDataValue('country_code');
 	}
 }
 
