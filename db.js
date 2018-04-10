@@ -61,14 +61,15 @@ class City {
 */
 
 const defaultCityList = [
-	{ geonameId : 1816670, name : 'Beijing', displayName : 'Beijing', countryName : 'China', stateName : 'Beijing', timeZoneDesc : 'Asia/Shanghai', timezone : 8},
-	{ geonameId : 5391959, name : 'San Francisco', displayName : 'San Francisco', countryName : 'United States', stateName : 'California', timeZoneDesc : 'America/Los_Angeles', timezone:-8},
-	{ geonameId : 2643743, name : 'London', displayName : 'London', countryName : 'United Kingdom', stateName : 'England', timeZoneDesc:'Europe/London', timezone:0},
-	{ geonameId : 2950159, name : 'Berlin', displayName : 'Berlin', countryName : 'Germany', stateName : 'Berlin', timeZoneDesc : 'Europe/Berlin', timezone : 1},
-	{ geonameId : 1835848, name : 'Seoul', displayName : 'Seoul', countryName : 'South Korea', stateName : 'Seoul', timeZoneDesc : 'Asia/Seoul', timezone : 9},
-	{ geonameId : 1850147, name : 'Tokyo', displayName : 'Tokyo', countryName : 'Japan', stateName : 'Tokyo', timeZoneDesc : 'Asia/Tokyo', timezone : 9},
-	{ geonameId : 1880252, name : 'Singapore', displayName : 'Singapore', countryName : 'Singapore', stateName : 'Central Singapore', timeZoneDesc : 'Asia/Singapore', timezone : 8},
-	{ geonameId : 5128581, name : 'New York', displayName : 'New York', countryName : 'United States', stateName : 'New York', timeZoneDesc : 'America/New_York', timezone:-5}
+	{ geonameId : 1816670, name : 'Beijing', displayName : 'Beijing', countryName : 'China', stateName : 'Beijing', timeZoneDesc : 'Asia/Shanghai', timezone : 8, countryCode:
+'CN'},
+	{ geonameId : 5391959, name : 'San Francisco', displayName : 'San Francisco', countryName : 'United States', stateName : 'California', timeZoneDesc : 'America/Los_Angeles', timezone:-8, countryCode:'US'},
+	{ geonameId : 2643743, name : 'London', displayName : 'London', countryName : 'United Kingdom', stateName : 'England', timeZoneDesc:'Europe/London', timezone:0, countryCode:'GB'},
+	{ geonameId : 2950159, name : 'Berlin', displayName : 'Berlin', countryName : 'Germany', stateName : 'Berlin', timeZoneDesc : 'Europe/Berlin', timezone : 1, countryCode:'DE'},
+	{ geonameId : 1835848, name : 'Seoul', displayName : 'Seoul', countryName : 'South Korea', stateName : 'Seoul', timeZoneDesc : 'Asia/Seoul', timezone : 9, countryCode:'KR'},
+	{ geonameId : 1850147, name : 'Tokyo', displayName : 'Tokyo', countryName : 'Japan', stateName : 'Tokyo', timeZoneDesc : 'Asia/Tokyo', timezone : 9, countryCode:'JP'},
+	{ geonameId : 1880252, name : 'Singapore', displayName : 'Singapore', countryName : 'Singapore', stateName : 'Central Singapore', timeZoneDesc : 'Asia/Singapore', timezone : 8, countryCode:'SG'},
+	{ geonameId : 5128581, name : 'New York', displayName : 'New York', countryName : 'United States', stateName : 'New York', timeZoneDesc : 'America/New_York', timezone:-5, countryCode:'US'}
 ];
 
 
